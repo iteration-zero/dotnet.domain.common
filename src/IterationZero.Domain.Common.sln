@@ -1,0 +1,61 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.0.0
+MinimumVisualStudioVersion = 10.0.0.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "code", "code", "{537CE8BA-3F16-4D6F-BBCE-4F471AD93267}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "IterationZero.Domain.Common", "IterationZero.Domain.Common", "{4129AD64-68F1-4241-96C4-0A6422610F01}"
+EndProject
+Project("{13B669BE-BB05-4DDF-9536-439F39A36129}") = "IterationZero.Domain.Common", "code\IterationZero.Domain.Common\IterationZero.Domain.Common.csproj", "{7F59FF4E-20A0-44D6-B5AF-A461F1EA83C3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{52BC4855-81BB-48D9-B526-473BC788E68A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "IterationZero.Domain.Common.Tests.Unit", "IterationZero.Domain.Common.Tests.Unit", "{8C90003D-3292-49B9-AB0E-C2BFD92E2217}"
+EndProject
+Project("{13B669BE-BB05-4DDF-9536-439F39A36129}") = "IterationZero.Domain.Common.Tests.Unit", "tests\IterationZero.Domain.Common.Tests.Unit\IterationZero.Domain.Common.Tests.Unit.csproj", "{BC7A4277-E06E-4624-949A-8341224624E9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7F59FF4E-20A0-44D6-B5AF-A461F1EA83C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F59FF4E-20A0-44D6-B5AF-A461F1EA83C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F59FF4E-20A0-44D6-B5AF-A461F1EA83C3}.Debug|x64.ActiveCfg = Debug|x64
+		{7F59FF4E-20A0-44D6-B5AF-A461F1EA83C3}.Debug|x64.Build.0 = Debug|x64
+		{7F59FF4E-20A0-44D6-B5AF-A461F1EA83C3}.Debug|x86.ActiveCfg = Debug|x86
+		{7F59FF4E-20A0-44D6-B5AF-A461F1EA83C3}.Debug|x86.Build.0 = Debug|x86
+		{7F59FF4E-20A0-44D6-B5AF-A461F1EA83C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F59FF4E-20A0-44D6-B5AF-A461F1EA83C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F59FF4E-20A0-44D6-B5AF-A461F1EA83C3}.Release|x64.ActiveCfg = Release|x64
+		{7F59FF4E-20A0-44D6-B5AF-A461F1EA83C3}.Release|x64.Build.0 = Release|x64
+		{7F59FF4E-20A0-44D6-B5AF-A461F1EA83C3}.Release|x86.ActiveCfg = Release|x86
+		{7F59FF4E-20A0-44D6-B5AF-A461F1EA83C3}.Release|x86.Build.0 = Release|x86
+		{BC7A4277-E06E-4624-949A-8341224624E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC7A4277-E06E-4624-949A-8341224624E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC7A4277-E06E-4624-949A-8341224624E9}.Debug|x64.ActiveCfg = Debug|x64
+		{BC7A4277-E06E-4624-949A-8341224624E9}.Debug|x64.Build.0 = Debug|x64
+		{BC7A4277-E06E-4624-949A-8341224624E9}.Debug|x86.ActiveCfg = Debug|x86
+		{BC7A4277-E06E-4624-949A-8341224624E9}.Debug|x86.Build.0 = Debug|x86
+		{BC7A4277-E06E-4624-949A-8341224624E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC7A4277-E06E-4624-949A-8341224624E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC7A4277-E06E-4624-949A-8341224624E9}.Release|x64.ActiveCfg = Release|x64
+		{BC7A4277-E06E-4624-949A-8341224624E9}.Release|x64.Build.0 = Release|x64
+		{BC7A4277-E06E-4624-949A-8341224624E9}.Release|x86.ActiveCfg = Release|x86
+		{BC7A4277-E06E-4624-949A-8341224624E9}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4129AD64-68F1-4241-96C4-0A6422610F01} = {537CE8BA-3F16-4D6F-BBCE-4F471AD93267}
+		{7F59FF4E-20A0-44D6-B5AF-A461F1EA83C3} = {4129AD64-68F1-4241-96C4-0A6422610F01}
+		{8C90003D-3292-49B9-AB0E-C2BFD92E2217} = {52BC4855-81BB-48D9-B526-473BC788E68A}
+		{BC7A4277-E06E-4624-949A-8341224624E9} = {8C90003D-3292-49B9-AB0E-C2BFD92E2217}
+	EndGlobalSection
+EndGlobal
